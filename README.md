@@ -18,7 +18,7 @@ Rscript code/final.R
 * Data Visualization <br />
      We simply output the performances of the models as png pictures in this code by different dimensions from aiding research pourposes directly without extra access to the internet.<br />
      <br />
-     The output pictures are at folder of "results", and the directory format looks like: results/<The Dimension Folder Name>
+     The output pictures are at folder of "results", and the directory format looks like: results/[The Dimension Folder Name]
 ## Folder organization and its related information
 
 ### docs

@@ -16,15 +16,13 @@ Rscript code/final.R
 ```
 
 * Data Visualization <br />
-     We simply output the performances of the models as png pictures in this code by different dimensions from aiding research pourposes directly without extra access to the internet.
-
+     We simply output the performances of the models as png pictures in this code by different dimensions from aiding research pourposes directly without extra access to the internet.<br />
+     The output pictures are at folder of "results", and the directory format looks like: results/<The Dimension Folder Name>
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1071_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jan. 15**
-* Any related document for the final project
-  * papers
-  * software user guide
+* Presentation slides demonstrated on Jan 15, 2019
+* Feature definition of Source data in word documentation
 
 ### data
 

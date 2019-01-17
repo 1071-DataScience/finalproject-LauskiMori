@@ -22,11 +22,11 @@ Rscript code/final.R
      For the details about analysis dimensions mentioned above, please check at the "Results" segment below for detailed information.
 ## Folder organization and its related information
 
-### docs
+### Docs
 * Presentation slides demonstrated on Jan 15, 2019
 * Feature definition of Source data in word documentation
 
-### data
+### Data
 
 * Source
 * Input format
@@ -34,7 +34,7 @@ Rscript code/final.R
   * Handle missing data
   * Scale value
 
-### code
+### Code
 
 * Which method do you use?
 * What is a null model for comparison?

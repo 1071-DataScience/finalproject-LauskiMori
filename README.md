@@ -8,7 +8,7 @@
 AQI(Air Quality Index), a measurement to evaluate status of air safety and cleanliness, is derived from numerical formula defined by EPA (Environmental Protection Agency), which uses weighted values of concentration from diffrent gases and selects one with maxmium. Since it takes the result of the quantity over gases and they come from things in our daily lives, this triggers us bringing out a question: can we use the quantity of things emitting these gases contributing to AQI index to predict it?
      
 
-### demo
+### Demo
 * Code execution <br />
      We recommend that one download the entire master branch file folder as zip and decompress it, and switch the root layer under this master-branch titled folder with typing the following command on your R terminal to execute the code named after "final.R".  
 ```

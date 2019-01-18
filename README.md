@@ -37,7 +37,7 @@ Rscript code/final.R
 * Any preprocessing?
   * Handle missing data
   * Scale value
-
+我是誰
 ### Code
 
 * Which method do you use?

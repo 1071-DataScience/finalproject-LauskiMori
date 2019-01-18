@@ -35,9 +35,9 @@ Rscript code/final.R
 * Input format <br />
      As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order: <br />
 <br />    [Year],[Month],[City],[AQI],[Car],[Bike],[TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG],[PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution],[ExamConstruction],[ExamPollution],[ExamMobliePollution]
-<br />
-<br />
-* Data preprocessing
+<br /><br />
+
+* Data preprocessing <br />
   * Handle missing data
   * Scale value
 ### Code

@@ -36,7 +36,7 @@ Rscript code/final.R
      As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order in English version: <br />
 <br />    [Year],[Month],[City],[AQI],[Car],[Bike],[TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG],[PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution],[ExamConstruction],[ExamPollution],[ExamMobliePollution]
 <br /><br />
-     One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with Tradtional Chinese words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
+     One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with non-English words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
 * Data preprocessing <br /><br />
   * Handle missing data <br />
      Fortunately, we got only about 10% data missing values, and all in the nearest features([Car] & [Bike]), we would just remove them from the data set. However, these missing values are city-oriented and time-bound, which means there would exist great bias upon predicting on these cities, for they missed half of the figures from a consecutive time interval from 2005-2010. <br /><br />
@@ -45,9 +45,7 @@ Rscript code/final.R
      
 ### Code
 
-* Which method do you use?
-* What is a null model for comparison?
-* How do your perform evaluation? ie. Cross-validation, or extra separated data
+* We used [KNN], [Decision Tree], [Random Forest], three mdoels within our capabilities as we wanted to compare and optimize the performances. Meanwhile, since our data is city-oriented and time-bound, we tried to realize if they had great effect on prediction by examining the average performances amongst three dimensions: [By All-data],[By Cities],[By Months] as their titles. However, we applied cross-validation to all these three dimensions(Data split ratio: 70% training, 30% testing), and scored them at testing results by checking Precison, Recall, and F1-Score. <br /><br />
 
 ### Results
 

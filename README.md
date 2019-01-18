@@ -47,8 +47,8 @@ Rscript code/final.R
 
 * We used [KNN], [Decision Tree], [Random Forest], three mdoels within our capabilities as we wanted to compare and optimize the performances. Meanwhile, since our data is city-oriented and time-bound, we tried to realize if they had great effect on prediction by examining the average performances amongst three dimensions: [By All-data],[By Cities],[By Months] as their titles. However, we applied cross-validation to all these three dimensions(Data split ratio: 70% training, 30% testing), and scored them at testing results by checking Precison, Recall, and F1-Score individually. <br /><br />
      Upon coding processing, we asked ourselves the following questions:<br /><br />
-- Given the data we had, the city-oriented and time-bound, would the models training under these two sub-conditions separately work better than the model training with all data (Specified Model VS General Model)? <br /><br />
-- Which model([KNN], [Decision Tree], [Random Forest]) would performance better results over Precision, Recall, F1-Score? <br /><br />
+     - Given the data we had, the city-oriented and time-bound, would the models training under these two sub-conditions separately work        better than the model training with all data (Specified Model VS General Model)? <br /><br />
+     - Which model([KNN], [Decision Tree], [Random Forest]) would performance better results over Precision, Recall, F1-Score? <br /><br />
 
 
 ### Results

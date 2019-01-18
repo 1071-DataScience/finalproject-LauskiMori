@@ -31,13 +31,17 @@ Rscript code/final.R
 ### Data
 
 * Source <br />     
-     We collected the AQI results among all cities in Taiwan every month from 2005-2016, and the related features of AQI contributors  such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis.
+     We collected the AQI results among all cities in Taiwan every month from 2005-2016, and the related features of AQI contributors  such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis. The related data reference source link is posted under "References" segment below.
 <br />
-* Input format
-* Any preprocessing?
+* Input format <br />
+     As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". <br />
+The final CSV we used contains these columns in this order: 
+[Year],[Month],[City],[AQI],[Car],[Bike],[TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG],[PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution],[ExamConstruction],[ExamPollution],[ExamMobliePollution]
+<br />
+<br />
+* Data preprocessing
   * Handle missing data
   * Scale value
-我是誰
 ### Code
 
 * Which method do you use?

@@ -46,7 +46,7 @@ Rscript code/final.R
      * Feature Columns [Auditory]:
      <br />    [ExamConstruction],[ExamPollution],[ExamMobliePollution]<br /> <br />
      
-     **Hint: AQI was converted with the Rscript titled "AQICoversion.R" under folder "code". Plus, One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with non-English words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
+     ** Hint: AQI was converted with the Rscript titled "AQICoversion.R" under folder "code". Plus, One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with non-English words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
 * Data preprocessing <br /><br />
   * Handle missing data <br />
      Fortunately, we got only about 10% data missing values, and all in the nearest features([Car] & [Bike]), we would just remove them from the data set. However, these missing values are city-oriented and time-bound, which means there would exist great bias upon predicting on these cities, for they missed half of the figures from a consecutive time interval from 2005-2010. <br /><br />

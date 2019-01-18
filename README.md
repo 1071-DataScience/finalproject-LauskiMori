@@ -45,11 +45,10 @@ Rscript code/final.R
      
 ### Code
 
-* We used [KNN], [Decision Tree], [Random Forest], three mdoels within our capabilities as we wanted to compare and optimize the performances. Meanwhile, since our data is city-oriented and time-bound, we tried to realize if they had great effect on prediction by examining the average performances amongst three dimensions: [By All-data],[By Cities],[By Months] as their titles. However, we applied cross-validation to all these three dimensions(Data split ratio: 70% training, 30% testing), and scored them at testing results by checking Precison, Recall, and F1-Score. <br /><br />
+* We used [KNN], [Decision Tree], [Random Forest], three mdoels within our capabilities as we wanted to compare and optimize the performances. Meanwhile, since our data is city-oriented and time-bound, we tried to realize if they had great effect on prediction by examining the average performances amongst three dimensions: [By All-data],[By Cities],[By Months] as their titles. However, we applied cross-validation to all these three dimensions(Data split ratio: 70% training, 30% testing), and scored them at testing results by checking Precison, Recall, and F1-Score individually. <br /><br />
 
 ### Results
 
-* Which metric do you use 
-  * precision, recall, R-square
+* With different performance evaluation methods( Precision, Recall, F1-Score ), and three-dimension analysis( [By All-data],[By Cities],[By Months] ), we may conclude:  <br /><br />
 * Is your improvement significant?
 * What is the challenge part of your project?

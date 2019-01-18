@@ -36,15 +36,15 @@ Rscript code/final.R
      As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order in English version: <br /> <br />
 
 
-     *Label Columns:
+     * Label Columns:
      <br />    [Year],[Month],[City],[AQI]<br />
-     *Feature Columns [Traffic]:
+     * Feature Columns [Traffic]:
      <br />    [Car],[Bike]<br />
-     *Feature Columns [Waste]:
+     * Feature Columns [Waste]:
      <br />    [TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG]<br />
-     *Feature Columns [Penalty]:
+     * Feature Columns [Penalty]:
      <br />    [PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution]<br />
-     *Feature Columns [Auditory]:
+     * Feature Columns [Auditory]:
      <br />    [ExamConstruction],[ExamPollution],[ExamMobliePollution]<br /> <br />
      One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with non-English words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
 * Data preprocessing <br /><br />

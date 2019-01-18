@@ -33,19 +33,19 @@ Rscript code/final.R
 * Source <br />     
      We collected the AQI results among all cities in Taiwan every month from 2005-2017, and the related features of AQI contributors  such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis. The related data reference source link is posted under "References" segment below. There are 3432 records in total after the collcection.<br /><br />
 * Input format <br /><br />
-     As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order in English version: <br /><br />    
+     As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order in English version: <br />
 
 
      -Label Columns:<br />
-          [Year],[Month],[City],[AQI]<br />
+          [Year],[Month],[City],[AQI]<br /><br />
      -Feature Columns [Traffic]:<br />  
-          [Car],[Bike]<br />
+          [Car],[Bike]<br /><br />
      -Feature Columns [Waste]:<br /> 
-          [TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG]<br />
+          [TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG]<br /><br />
      -Feature Columns [Penalty]:<br />
-          [PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution]<br />
+          [PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution]<br /><br />
      -Feature Columns [Auditory]:<br />
-          [ExamConstruction],[ExamPollution],[ExamMobliePollution]<br />
+          [ExamConstruction],[ExamPollution],[ExamMobliePollution]<br /><br />
 
      One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with non-English words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
 * Data preprocessing <br /><br />

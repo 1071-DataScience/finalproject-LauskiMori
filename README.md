@@ -39,7 +39,7 @@ Rscript code/final.R
      *Label Columns:
      <br />    [Year],[Month],[City],[AQI]<br />
      *Feature Columns [Traffic]:
-     <br />    [Car],[Bike]<br /><br />
+     <br />    [Car],[Bike]<br />
      *Feature Columns [Waste]:
      <br />    [TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG]<br />
      *Feature Columns [Penalty]:

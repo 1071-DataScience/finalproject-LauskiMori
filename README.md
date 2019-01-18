@@ -5,7 +5,7 @@
 * < 楊晴焱, 107155018 >
 
 ### Goal
-AQI(Air Quality Index), a measurement to evaluate status of air safety and cleanliness, is derived from numerical formula defined by EPA (Environmental Protection Agency), which uses weighted values of concentration from diffrent gases and selects one with maxmium. Since it takes the result of the quantity over gases and they come from things in our daily lives, this triggers us bringing out a question: can we use the quantity of things emitting these gases contributing to AQI index to predict it?
+AQI(Air Quality Index), a measurement to evaluate status of air safety and cleanliness, is derived from numerical formula defined by EPA (Environmental Protection Agency), which uses weighted values of concentration from diffrent gases and selects one with maxmium. Since it takes the result of the quantity over gases and they come from things in our daily lives, this triggers us bringing out a question: can we use the quantity of things emitting these gases contributing to AQI index to predict it? Henceforth, we collected the AQI results among all cities in Taiwan every month from 2005-2016, and the related features of AQI contributors such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis.    
      
 
 ### Demo

@@ -64,9 +64,5 @@ Rscript code/final.R
 ### Results
 
 * With different performance evaluation methods( Precision, Recall, F1-Score ), and three-dimension analysis( [By All-data],[By Cities],[By Months] ), we may conclude:  <br /><br />
-     *<br />
-     <br />
-     *<br />
-     <br />
-* Is your improvement significant?
-* What is the challenge part of your project?
+     * Although General Model with all data outwieghed almost 90%  of the other models with data under three dimensions, original data set had serious unbalance distribution which happened even under three dimensions split as well. The result here arose that we might need to do further statistical tests to clarify this.<br />
+     * The challenging parts of our projects lied in: [Poor Feature Diversity],[Unbalance Data],[Open Data Integration],[Background Knowledge Limitation].<br />

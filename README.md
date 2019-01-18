@@ -31,17 +31,17 @@ Rscript code/final.R
 ### Data
 
 * Source <br />     
-     We collected the AQI results among all cities in Taiwan every month from 2005-2017, and the related features of AQI contributors  such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis. The related data reference source link is posted under "References" segment below. There are 3432 records in total after the collcection.<br />
+     We collected the AQI results among all cities in Taiwan every month from 2005-2017, and the related features of AQI contributors  such as the monthly numbers of Motorbike&Car,Garbage&Waste generated, air pollution penalty&auditory cases for the project analysis. The related data reference source link is posted under "References" segment below. There are 3432 records in total after the collcection.<br /><br />
 * Input format <br />
      As we collected so many features and AQI Results, it took us considerable time to combine all of them into one CSV file as modeling data, for these Open Data has its own format from different breaus or authorities concerned with "unique aligning preference". The final CSV we used contains these columns in this order in English version: <br />
 <br />    [Year],[Month],[City],[AQI],[Car],[Bike],[TotalGarbageT],[GeneralGarbageT],[HugeGarbageT],[RecycleGarbageT],[KitchenWasteT],[WastePerPersonKG],[PenaltyConstruction],[PenaltyPollution],[PenaltyMobilePollution],[ExamConstruction],[ExamPollution],[ExamMobliePollution]
 <br /><br />
-     One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with Tradtional Chinese words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br />   
+     One thing we should point out is we used "replaceChinese.csv" instead of "AllFeatures+Labelv4.csv" in our code, because "AllFeatures+Labelv4.csv" with Tradtional Chinese words would go haywire in display after re-download from Github. However, we still left both csv files for better comparison. Plus, for those who want to re-produce this model experiment, please switch and replace the data in the folder entitled "data" under this project folder with master-branch titled.  <br /><br />   
 * Data preprocessing <br />
   * Handle missing data <br />
-     Fortunately, we got only about 10% data missing values, and all in the nearest features([Car] & [Bike]), we would just remove them from the data set. However, these missing values are city-oriented and time-bound, which means there would exist great bias upon predicting on these cities, for they missed half of the figures from a consecutive time interval from 2005-2010. <br />
+     Fortunately, we got only about 10% data missing values, and all in the nearest features([Car] & [Bike]), we would just remove them from the data set. However, these missing values are city-oriented and time-bound, which means there would exist great bias upon predicting on these cities, for they missed half of the figures from a consecutive time interval from 2005-2010. <br /><br />
   * Scale value <br />
-    Because the features are with diffrent units and the numbers varies in scale massively, one method we have here is value-standardization, for that can simply scale down the values to the same level and unify the units among these values. <br />   
+    Because the features are with diffrent units and the numbers varies in scale massively, one method we have here is value-standardization, for that can simply scale down the values to the same level and unify the units among these values. <br /><br />   
      
 ### Code
 

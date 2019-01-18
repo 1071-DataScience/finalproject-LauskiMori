@@ -26,7 +26,6 @@ Rscript code/final.R
 
 ### Docs
 * Presentation slides demonstrated on Jan 15, 2019
-* Feature definition of Source data in word documentation
 
 ### Data
 
@@ -64,5 +63,13 @@ Rscript code/final.R
 ### Results
 
 * With different performance evaluation methods( Precision, Recall, F1-Score ), and three-dimension analysis( [By All-data],[By Cities],[By Months] ), we may conclude:  <br /><br />
-     * Although General Model with all data outwieghed almost 90%  of the other models with data under three dimensions, original data set had serious unbalance distribution which happened even under three dimensions split as well. The result here arose that we might need to do further statistical tests to clarify this.<br />
-     * The challenging parts of our projects lied in: [Poor Feature Diversity],[Unbalance Data],[Open Data Integration],[Background Knowledge Limitation].<br />
+     * Although General Model with all data outwieghed almost 90%  of the other models with data under three dimensions, original data set had serious unbalance distribution which happened even under three dimensions split as well. The result here arose that we might need to do further statistical tests to clarify this.<br /><br />
+     * The challenging parts of our projects lied in: [Poor Feature Diversity],[Unbalance Data],[Open Data Integration],[Background Knowledge Limitation].<br /><br />
+
+### References
+* Car&Motorbike Statistic in Taiwan: [https://stat.thb.gov.tw/hb01/webMain.aspx?sys=100&funid=11100] <br /><br />
+* Garbage Statistic in Taiwan: [https://erdb.epa.gov.tw/DataRepository/Statistics/TrashClearExecutiveProduce.aspx?topic1=%E5%9C%B0&topic2=%E6%B1%A1%E6%9F%93%E9%98%B2%E6%B2%BB&subject=%E5%BB%A2%E6%A3%84%E7%89%A9] <br /><br />
+* Air-Pollution Penalty Cases Statisic in Taiwan: [https://erdb.epa.gov.tw/DataRepository/Statistics/StatEmsEemFineCnt.aspx?topic1=%E5%85%B6%E4%BB%96&topic2=%E7%92%B0%E4%BF%9D%E7%B5%B1%E8%A8%88&subject=%E6%B1%A1%E6%9F%93%E7%AE%A1%E5%88%B6] <br /><br />
+* Air-Pollution Auditory Cases Statisic in Taiwan: [https://erdb.epa.gov.tw/DataRepository/Statistics/StatEmsEemCnt.aspx?topic1=%u5176%u4ed6&topic2=%u74b0%u4fdd%u7d71%u8a08&subject=%u6c61%u67d3%u7ba1%u5236] <br /><br />
+* AQI Formula: [https://taqm.epa.gov.tw/taqm/tw/b0203.aspx] <br /><br />
+* AQI Statistic in Taiwan: [https://erdb.epa.gov.tw/DataRepository/EnvMonitor/AirQualityMonitorMonData.aspx?topic1=%u5927%u6c23&topic2=%u74b0%u5883%u53ca%u751f%u614b%u76e3%u6e2c&subject=%u7a7a%u6c23%u54c1%u8cea] <br /><br />

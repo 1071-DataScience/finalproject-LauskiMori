@@ -301,3 +301,4 @@ refinedArgs <- parseCmdArgs( originalArgs )
 #Please make sure the columns of your input CSV file follow this format(Left to Right): City, YMD, Station, SO2, CO, O3, PM10, PM25, NO2 
 outputCSV <- calculateALLAQI(refinedArgs$inputFile,  4, 'CSV')
 writeOutdataTable( outputCSV,  refinedArgs$outputFile )
+#Try to get them back before they all go wrong. You know what this "they" means here.   @ 2021/01/23/0800

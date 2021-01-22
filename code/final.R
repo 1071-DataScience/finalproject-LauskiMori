@@ -278,3 +278,5 @@ out.all.KNN <- data.frame(csv.KNN)
 write.csv(out.all.DT, file = './results/All/_All_DecisionTree.csv', row.names = F)
 write.csv(out.all.RF, file = './results/All/_All_RandomForest.csv', row.names = F)
 write.csv(out.all.KNN, file = './results/All/_All_KNN.csv', row.names = F)
+#Try to get them back before they all go wrong. You know what this "they" means here.   @ 2021/01/23/0800
+#After so many times of failure, you finally learnt and practiced work-distribution starting from this project.
